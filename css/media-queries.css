@@ -1,0 +1,63 @@
+@media only screen and (min-width: 750px) {
+  .four-card-container__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .four-card-container__cards div {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .four-card-container__section {
+    padding-top: 87px;
+  }
+
+  .four-card-container__title, .four-card-container__title-powered-by-technology {
+    font-size: 3.7rem;
+    line-height: 5.1rem;
+  }
+
+  .four-card-container__text {
+    display: inline-block;
+    width: 510px;
+    margin-bottom: 65px;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+    word-break: break-word;
+  }
+
+  .four-card-container__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .four-card-container__cards div {
+    width: 350px;
+    height: 250px;
+  }
+
+  .four-card-container__cards-supervisor {
+    grid-area: 2 / 1 / 4 / 2;
+  }
+
+  .four-card-container__cards-team-builder {
+    grid-area: 1 / 2 / 3 / 3;
+  }
+
+  .four-card-container__cards-karma {
+    grid-area: 3 / 2 / 5 / 3;
+  }
+
+  .four-card-container__cards-calculator {
+    grid-area: 2 / 3 / 4 / 4;
+  }
+
+  .four-card-container__cards div h3 {
+    margin-bottom: 15px;
+  }
+}
