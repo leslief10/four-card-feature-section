@@ -12,34 +12,16 @@
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1060px) {
+
   .four-card-container__section {
     padding-top: 87px;
-  }
-
-  .four-card-container__title, .four-card-container__title-powered-by-technology {
-    font-size: 3.7rem;
-    line-height: 5.1rem;
-  }
-
-  .four-card-container__text {
-    display: inline-block;
-    width: 510px;
-    margin-bottom: 65px;
-    font-size: 1.5rem;
-    line-height: 2.6rem;
-    word-break: break-word;
   }
 
   .four-card-container__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-  }
-
-  .four-card-container__cards div {
-    width: 350px;
-    height: 250px;
   }
 
   .four-card-container__cards-supervisor {
@@ -56,6 +38,29 @@
 
   .four-card-container__cards-calculator {
     grid-area: 2 / 3 / 4 / 4;
+  }
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .four-card-container__title, .four-card-container__title-powered-by-technology {
+    font-size: 3.7rem;
+    line-height: 5.1rem;
+  }
+
+  .four-card-container__text {
+    display: inline-block;
+    width: 510px;
+    margin-bottom: 65px;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+    word-break: break-word;
+  }
+
+  .four-card-container__cards div {
+    width: 350px;
+    height: 250px;
   }
 
   .four-card-container__cards div h3 {
