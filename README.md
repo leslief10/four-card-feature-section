@@ -6,6 +6,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -19,6 +20,12 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
+
+### Screenshot
+
+![](./design/mobile-solution.png)
+![](./design/desktop-solution.png)
+
 
 ## My process
 
