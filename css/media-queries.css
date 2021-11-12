@@ -1,4 +1,10 @@
 @media only screen and (min-width: 750px) {
+
+  .four-card-container__section {
+    height: 100vh;
+    justify-content: flex-start;
+  }
+
   .four-card-container__cards {
     display: flex;
     flex-direction: row;
