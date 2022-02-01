@@ -21,7 +21,6 @@
 
   .four-card-container__section {
     padding-top: 87px;
-    height: 100vh;
   }
 
   .four-card-container__cards {
@@ -50,6 +49,10 @@
 
 @media only screen and (min-width: 1440px) {
 
+  .four-card-container__section {
+    min-height: 100vh;
+  }
+    
   .four-card-container__title, .four-card-container__title-powered-by-technology {
     font-size: 3.7rem;
     line-height: 5.1rem;
