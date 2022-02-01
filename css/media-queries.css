@@ -21,6 +21,7 @@
 
   .four-card-container__section {
     padding-top: 87px;
+    height: 100vh;
   }
 
   .four-card-container__cards {
